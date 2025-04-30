@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >About Us - Full Stack Development</title>
+  <link rel="stylesheet" href="About.css">
+  <!-- Remix Icon CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <style>
+    .programs-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      text-align: center;
+    }
+
+    .program-item {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .program-item:hover {
+      transform: translateY(-10px);
+    }
+
+    .program-item img {
+      width: 48px; /* Adjust size of the icon */
+      height: 48px;
+    }
+
+    .program-item p {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-content">
+      <h2>TeCh365</h2>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About Us Section -->
+  <section class="about-section">
+    <div class="container">
+
+      <!-- About Us -->
+      <div class="about-content">
+        <h1 class="about-title">About Us</h1>Our Full Stack Web Development Program</h1>
+        <p>Welcome to <strong>TeCh365 Full Stack Academy</strong>! We specialize in teaching you the full journey of web development — from front-end design to back-end architecture. Our goal is to help you build real-world projects and become job-ready in months.</p>
+      </div>
+
+      <!-- How to Join -->
+      <div class="join-content">
+        <h2>How to Join and Start Learning</h2>
+        <ul>
+          <li><i class="ri-checkbox-circle-line"></i> <strong>Register:</strong> Sign up easily through our platform.</li>
+          <li><i class="ri-checkbox-circle-line"></i> <strong>Learn:</strong> Get access to step-by-step video tutorials and mentor support.</li>
+          <li><i class="ri-checkbox-circle-line"></i> <strong>Build Projects:</strong> Complete real-world projects to build your portfolio.</li>
+          <li><i class="ri-checkbox-circle-line"></i> <strong>Get Certified:</strong> Earn certificates and boost your career.</li>
+        </ul>
+      </div>
+
+      <!-- Registration Button -->
+      <div class="register-btn">
+        <a href="register.html" class="btn">Register Now</a>
+      </div>
+
+      <!-- Embedded YouTube Video -->
+      <div class="video-section">
+        <h2>Watch Our Introduction Video</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/v8jDnBYc0bs?si=Icjq7CD9XZz-ePim" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="programs-section">
+    <div class="container">
+      <h2>Programs You Will Learn</h2>
+      <div class="programs-grid">
+        <div class="program-item">
+          <i class="ri-html5-line"></i>
+          <p>HTML</p>
+        </div>
+        <div class="program-item">
+          <i class="ri-css3-line"></i>
+          <p>CSS</p>
+        </div>
+        <div class="program-item">
+          <i class="ri-javascript-line"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="program-item">
+          <i class="ri-reactjs-line"></i>
+          <p>React</p>
+        </div>
+        <!-- Python Icon -->
+        <div class="program-item">
+          <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python">
+          <p>Python</p>
+        </div>
+        <!-- Django Icon -->
+        <div class="program-item">
+          <img src="https://img.icons8.com/ios/50/000000/django.png" alt="Django">
+          <p>Django</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

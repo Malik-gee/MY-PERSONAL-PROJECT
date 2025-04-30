@@ -1,0 +1,233 @@
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+    background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+    padding: 80px 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  /* ==== Nav bar ==== */
+
+  /* Navbar Styling */
+.navbar {
+    height: 70px;
+    background-color: gray; /* Gray background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-shadow: black 4px 8px 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-content h2 {
+    font-size: 1.5rem;
+    color: black;
+    
+
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    
+   
+    
+  }
+  
+  .navbar-content h2 {
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .navbar-content h2 {
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap:400px; /* gap between list items */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    color: black;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 900;
+  font-size: large;
+  }
+  
+  .nav-link:hover {
+    color: #ff6600; /* Change color on hover */
+  }
+  
+  
+  /* ==== Left Info Side ==== */
+  .contact-info {
+    flex: 1 1 40%;
+    text-align: left;
+
+  }
+  
+  .contact-info h2 {
+    font-size: 2.8rem;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color:black;
+    font-size: 1.1rem;
+    font-size: large;
+  }
+  
+  .info-item i {
+    font-size: 26px;
+    color: #007bff;
+    margin-right: 12px;
+  }
+  
+  /* ==== Right Form Side ==== */
+  .contact-form {
+    flex: 1 1 55%;
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field, 
+  .textarea-field {
+    padding: 15px 18px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: rgb(227, 224, 224);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.3s;
+
+  }
+  
+  .input-field:focus, 
+  .textarea-field:focus {
+    border-color: #007bff;
+    background: #fff;
+    outline: none;
+  }
+  
+  .textarea-field {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  /* ==== Button Style ==== */
+  .send {
+    background: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .send:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* ==== Responsive for Mobile ==== */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      padding: 0 20px;
+    }
+  
+    .contact-info, .contact-form {
+      flex: 1 1 100%;
+    }
+  
+    .contact-form {
+      margin-top: 30px;
+    }
+  }
+
+
+  .whatsapp-button {
+    position: fixed; /* stays visible while scrolling */
+    bottom: 30px; /* distance from bottom */
+    right: 30px; /* distance from right */
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    font-size: 40px; /* make the icon big */
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    text-decoration: none;
+    transition: 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #128C7E;
+    transform: scale(1.1);
+  }
+  
+  

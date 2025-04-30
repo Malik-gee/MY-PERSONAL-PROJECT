@@ -1,0 +1,282 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .about-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+  
+  /* How to Join */
+  .join-content {
+    margin-bottom: 40px;
+  }
+  
+  .join-content h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .join-content ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .join-content li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .join-content li i {
+    margin-right: 10px;
+    color: #00aaff;
+    font-size: 1.5rem;
+  }
+  
+  /* Registration Button */
+  .register-btn {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .register-btn .btn {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-btn .btn:hover {
+    background-color: #0088cc;
+  }
+  
+  /* Video Section */
+  .video-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .video-section h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    max-width: 960px;
+    height: 540px;
+  }
+  
+  /* Programs Section */
+  .programs-section {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+  }
+  
+  .programs-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #222;
+  }
+  
+  .programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .program-item {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .program-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .program-item i {
+    font-size: 3rem;
+    color: #00aaff;
+    margin-bottom: 15px;
+  }
+  
+  .program-item p {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: bold;
+  }
+
+
+  .programing{
+        font-size: 3rem;
+        color: #00aaff;
+        margin-bottom: 15px;
+      
+      
+
+  }
+
+
+  /* Navbar Styling */
+.navbar {
+  height: 70px;
+  background-color: gray; /* Gray background */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-shadow: black 4px 8px 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content h2 {
+  font-size: 1.5rem;
+  color: black;
+  
+
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  
+ 
+  
+}
+
+.navbar-content h2 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.navbar-content h2 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap:400px; /* gap between list items */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 900;
+  font-size: large;
+  
+}
+
+.nav-link:hover {
+  color: #ff6600; /* Change color on hover */
+}
+
+
+.about{
+  color: #ff6600;
+}
+  
+
+
+    /* Title Styling */
+    .about-title {
+      font-size: 48px; /* Large font size */
+      font-weight: bold; /* Bold text */
+      color: #333;
+      text-align: center;
+      margin-top: 100px; /* Adjust space from the navbar */
+      font-family: 'Arial', sans-serif; /* Optional: For a more modern look */
+    
+    }
+
+    /* About Us Section Styling */
+    .about-section {
+      padding: 60px 20px;
+      text-align: center;
+     
+    
+    
+      
+    }
+
+
+    .about-content  {
+      font-size: 18px;
+      line-height: 1.6;
+      color: black;
+      
+    }
+
+ 
+
+    
+
